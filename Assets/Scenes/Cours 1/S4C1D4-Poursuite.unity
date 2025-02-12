@@ -128,7 +128,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4428106790986129177}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &244657885
+--- !u!114 &244657887
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poissonCible: {fileID: 1482795708}
-  vitesse: 0.5
+  vitesse: 0.21
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,6 +552,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &922365176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5361519520007988540, guid: 741dc339d3f1f1547a6caa4ddec62683,
+    type: 3}
+  m_PrefabInstance: {fileID: 4428106790986129177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &922365179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922365176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9110a89dcc7578469eb52b64fe0825a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poissonCible: {fileID: 0}
+  vitesse: 0
 --- !u!1001 &1482795707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -756,7 +776,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3351268252439224420, guid: 741dc339d3f1f1547a6caa4ddec62683,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 244657885}
+      addedObject: {fileID: 244657887}
+    - targetCorrespondingSourceObject: {fileID: 5361519520007988540, guid: 741dc339d3f1f1547a6caa4ddec62683,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 922365179}
   m_SourcePrefab: {fileID: 100100000, guid: 741dc339d3f1f1547a6caa4ddec62683, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
